@@ -1,3 +1,5 @@
+We use here: `transitive joins`, `geoJSON data`, `granularity`.
+
 This example is about data visualization on maps. I used Mapbox API as a map tool, Cube.JS to retrieve data and PostgreSQL as a database. If you’re not familiar with Cube.JS yet, please visit [Cube JS Sample React app tutorial](https://cube.dev/blog/cubejs-open-source-dashboard-framework-ultimate-guide/) before continuing this tutorial.
 
 As the start point I used a sample Cube.JS React app.
