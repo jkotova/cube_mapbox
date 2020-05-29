@@ -113,7 +113,8 @@ Here is the query to get total cases by day:
 
 ## Useful links:
 
--[Documentation for fill layer, its parameters and settings ](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#fill) -[Choropleth layer example at Mapbox.Documentation](https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/)
+- [Documentation for fill layer, its parameters and settings ](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#fill)
+- [Choropleth layer example at Mapbox.Documentation](https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/)
 
 # Heatmap and cluster layers
 
