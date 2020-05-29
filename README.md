@@ -75,13 +75,13 @@ dimensions: [
     'stats.countryterritorycode',
     'mapbox.name',
     'mapbox__coords.coordinates'
-    ],
+],
 timeDimensions: [
     {
         dimension: 'stats.date',
         granularity: 'day'
     }
-    ],
+],
 limit: 20000,
 ```
 
@@ -102,13 +102,13 @@ We used the same process to display a total cases amount at the top right corner
 Here is the query to get total cases by day:
 
 ```javascript
-    measures: ['stats.total'],
-    timeDimensions: [
-        {
-            dimension: 'stats.date',
-            granularity: 'day'
-        }
-    ]
+measures: ['stats.total'],
+timeDimensions: [
+    {
+        dimension: 'stats.date',
+        granularity: 'day'
+    }
+]
 ```
 
 ## Useful links:
@@ -150,7 +150,7 @@ We needed to set up the heatmap layer:
 Here you can find more information about heatmap layers:
 
 - [What does mean expressions [‘interpolate’,[‘linear’] …]](https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/)
-- [Heatmap layer example at Mapbox.Documentatio](https://docs.mapbox.com/help/tutorials/make-a-heatmap-with-mapbox-gl-js/)
+- [Heatmap layer example at Mapbox.Documentation](https://docs.mapbox.com/help/tutorials/make-a-heatmap-with-mapbox-gl-js/)
 - [Heatmap layers params descriptions](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#heatmap)
 - [Some theory about heatmap layers settings, palettes](https://blog.mapbox.com/introducing-heatmaps-in-mapbox-gl-js-71355ada9e6c)
 
